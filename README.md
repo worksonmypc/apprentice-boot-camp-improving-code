@@ -21,8 +21,6 @@
  
 Two–three mentors required in addition to leads. These should be able to cover support for the required languages.
 
-Several exercises (katas and code starters) will need to be ported to required languages.
-
 ## Prep-work for apprentices
 
 None
@@ -31,7 +29,10 @@ None
 
 Organisation mentors should look to exercise the knowledge we’ve covered in the boot camp. Below are suggestions for tasks that would do this, but please use your own judgement to work out what to do. There is no need for anything to be returned to MD or the presenters—it’s just a learning exercise.
 
-* TBC
+* Search for code smells in code-bases back at work
+* Apply code smell searching and refactoring to portfolio work and document
+* Maybe use the QWAN cards as a teaching resource to help organise refactoring work
+* Apprentices should be involved in some code review activities—providing them for their colleagues and receiving them
 
 ## Further reading / learning resources
 
