@@ -60,4 +60,4 @@ Note: Arguably better as out of phase with deployment, but might get ignored
 
 Can expand the power of the IDE to do more
 
-Note: Better as it is faster feedback, and doesn’t impact the rest of the team
+Note: Better as it is faster feedback, and doesn’t impact the rest of the team  
