@@ -72,3 +72,36 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 ---
 
+# Exercise prep
+
+* `git clone https://github.com/MCR-Digital/apprentice-bootcamp-fundamentals-3`
+* Make sure the tests pass in your language
+  * Java folk: import the `exercises/java` directory using ‘Import project from external model’
+  * Choose ‘Use default gradle wrapper (recommended)’
+
+---
+
+## Reading code
+
++ Possibly your most important skill
++ Great source of learning (if you read good code)
++ Good developers spend ~10x as long reading
++ Developers who only write create debt
+
+---
+
+## Codebase
+
+Refactoring codebase called ‘Trivia’
+
+Notes: Used in ‘Legacy Code Retreat’ workshops
+
+---
+
+## Exercise: Read and try to understand the code (15 mins?)
+
++ Look at Game Runner and Game
++ Do not change the code
++ Do try to understand
++ Drawing things will help… flow chart?
++ Use materials to craft the board for the game

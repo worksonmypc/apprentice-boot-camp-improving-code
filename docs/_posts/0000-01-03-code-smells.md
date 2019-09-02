@@ -1,34 +1,4 @@
 
-# Exercise prep
-
-* `git clone https://github.com/MCR-Digital/apprentice-bootcamp-fundamentals-3`
-* Make sure the tests pass in your language
-  * Java folk: import the `exercises/java` directory using ‘Import project from external model’
-  * Choose ‘Use default gradle wrapper (recommended)’
-
----
-
-## Reading code
-
----
-
-## Codebase
-
-Refactoring codebase called ‘Trivia’
-
-Notes: Used in ‘Legacy Code Retreat’ workshops
-
----
-
-## Exercise: Read and try to understand the code (15 mins?)
-
-+ Do not change the code
-+ Do try to understand
-+ Drawing things will help… flow chart?
-+ Use materials to craft the board for the game
-
----
-
 # Code Smells
 
 ---
@@ -110,7 +80,7 @@ Notes: This takes some of the opinion and emotion out of it
 
 ---
 
-### Technique
+### QWAN Card Technique
 
 + When you find something that smells, find the appropriate card
 + Place the card down, and read the advice
@@ -127,33 +97,3 @@ Notes: This takes some of the opinion and emotion out of it
 + Magic Number
 
 ---
-
-# Ideas
-
-Lines of code in GitHub?
-Reading code versus writing code
-QWAN cards - recognise smells - fix smells?
-What is legacy code, is it a pejorative term?
-The existing code is quite good, said no developer ever.
-Which idiot wrote this? - git blame
-Clever is a circular scale.
-Coverage? Get them to consider coverage with just the golden master.
-
-Run Sonar or equivalent on code-base - compare results with manual review - judgement. GitHub integrate?
-Static analysis for:
-* style
-* bugs
-* security
-* performance
-* coverage
-
-Code never breaks - "HYPERAWARE EDITING"
-
-The importance of testing - getting code under test
-
----
-
-# Reading list
-
-Working Effectively With Legacy Code
-  
