@@ -18,12 +18,12 @@ class GameRunnerTest {
     private final PrintStream originalOut = System.out;
 
     @BeforeEach
-    public void setUpStreams() {
+    void setUpStreams() {
         System.setOut(new PrintStream(outContent));
     }
 
     @AfterEach
-    public void restoreStreams() throws IOException {
+    void restoreStreams() throws IOException {
         System.setOut(originalOut);
         outContent.close();
     }
