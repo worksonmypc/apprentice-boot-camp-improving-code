@@ -8,6 +8,27 @@
 
 ---
 
+## Reading code
+
+---
+
+## Codebase
+
+Refactoring codebase called ‘Trivia’
+
+Notes: Used in ‘Legacy Code Retreat’ workshops
+
+---
+
+## Exercise: Read and try to understand the code (15 mins?)
+
++ Do not change the code
++ Do try to understand
++ Drawing things will help… flow chart?
++ Use materials to craft the board for the game
+
+---
+
 # Code Smells
 
 ---
@@ -19,8 +40,9 @@
 
 ---
 
-<backgroundimage>images/Kent_Beck_no_Workshop_Mapping_XP.jpg</backgroundimage>
+<backgroundimage>https://upload.wikimedia.org/wikipedia/commons/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg</backgroundimage>
 <backgroundimageopacity>0.5</backgroundimageopacity>
+<!-- .slide: data-background-position="top" -->
 
 Originated from Kent Beck’s [Once And Only Once](http://wiki.c2.com/?OnceAndOnlyOnce) rule.  
 (see also [CodeSmell](http://wiki.c2.com/?CodeSmell)).
@@ -28,6 +50,8 @@ Originated from Kent Beck’s [Once And Only Once](http://wiki.c2.com/?OnceAndOn
 <small>
 [This file](https://www.flickr.com/photos/8512982@N05/1574023621/) is licensed under the Creative Commons [Attribution-Share Alike 2.0 Generic](https://creativecommons.org/licenses/by-sa/2.0/deed.en) license.
 </small>
+
+Note: Kent also created extreme programming, helped form the Agile Manifesto, is the leading proponent of TDD, spawned unit testing frameworks and popularised CRC cards.
 
 ---
 
@@ -55,21 +79,13 @@ Notes: Everyone has a sense of smell
 No single definitive list of smells
 
 Notes: Conventions have appeared over the years.  
-  You will recognise some of them.  
+  You may recognise some of them.  
 
 ---
 
 ## Today…
 
 Explore *some* smells
-
----
-
-## Codebase
-
-Refactoring codebase called ‘Trivia’
-
-Notes: Used in ‘Legacy Code Retreat’ workshops  
 
 ---
 
