@@ -48,6 +48,18 @@ Note: arguably not sensible to fail the build based on SA
 
 ---
 
+Example: [SonarQube](https://www.sonarqube.org)
+
++ Multi language (25+ including Java, C#, Python, PHP, JavaScript, CSS, HTML)
++ Security scanning
++ Workflow
++ Historical tracking
++ Your tech debt in financial terms
++ You run your build tool to push results to SonarQube
++ Free if you host yourself
+
+---
+
 ## GitHub Integration
 
 Analyse code after every push
@@ -56,8 +68,28 @@ Note: Arguably better as out of phase with deployment, but might get ignored
 
 ---
 
+Example: [Codacy](https://www.codacy.com)
+
++ Similar to SonarQube
++ Triggered by repository pushes
++ Multi language (~29 languages including Java, C#, Python, PHP, JavaScript, CSS)
++ Don’t need to execute a build yourself
++ Hosted… free for up to four users
+
+---
+
 ## IDE Static Analysis
 
 Can expand the power of the IDE to do more
 
 Note: Better as it is faster feedback, and doesn’t impact the rest of the team  
+
+---
+
+Example: [Error Prone](https://errorprone.info)
+
++ Replaces the Java compiler to create errors when issues found
++ Immediate feedback for the developer
++ Integrates with the IDE (IntelliJ plugin)
++ Java specific (although it inspired C# version)
++ Free
