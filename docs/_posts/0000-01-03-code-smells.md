@@ -1,14 +1,14 @@
 
 # Code Smells
 
----
+--
 
 > A code smell is a hint that something has gone wrong somewhere in your code. Use the smell to track down the problem.  
 >   
 > Note that a CodeSmell is a hint that something might be wrong, not a certainty.  
 —http://wiki.c2.com/?CodeSmell
 
----
+--
 
 <backgroundimage>https://upload.wikimedia.org/wikipedia/commons/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg</backgroundimage>
 <backgroundimageopacity>0.5</backgroundimageopacity>
@@ -23,7 +23,7 @@ Originated from Kent Beck’s [Once And Only Once](http://wiki.c2.com/?OnceAndOn
 
 Note: Kent also created extreme programming, helped form the Agile Manifesto, is the leading proponent of TDD, spawned unit testing frameworks and popularised CRC cards.
 
----
+--
 
 <backgroundimage>images/Refactoring-Improving-the-Design-of-Existing-Code.jpg</backgroundimage>
 <backgroundimageopacity>0.2</backgroundimageopacity>
@@ -32,7 +32,7 @@ Note: Kent also created extreme programming, helped form the Agile Manifesto, is
 
 Further developed and popularised by Martin Fowler 
 
----
+--
 
 ### Why ‘smell’?
 
@@ -44,14 +44,14 @@ Notes: Everyone has a sense of smell
   Can’t always tell what something is  
   Can usually tell if it smells good or bad  
 
----
+--
 
 No single definitive list of smells
 
 Notes: Conventions have appeared over the years.  
   You may recognise some of them.  
 
----
+--
 
 ## Today…
 
@@ -61,9 +61,11 @@ Explore *some* smells
 
 <backgroundimage>images/qwan-refactoring-cards.jpg</backgroundimage>
 
+QWAN Refactoring Cards
+
 Notes: Going to be using QWAN Refactoring Cards  
 
----
+--
 
 <img src="images/smells-refactoring-cards-sample.png">
 
@@ -72,13 +74,13 @@ Notes: Going to be using QWAN Refactoring Cards
 + Smell cards: help you identify the smell and suggest solutions
 + Refactor cards: explain what the suggested refactors achieve
 
----
+--
 
 Purpose: give you a framework to improve existing code until it becomes natural
 
 Notes: This takes some of the opinion and emotion out of it
 
----
+--
 
 ### QWAN Card Technique
 
@@ -88,12 +90,10 @@ Notes: This takes some of the opinion and emotion out of it
 + Pick the appropriate refactor and apply it
 + Continue reading and start again
 
----
+--
 
 ### First three smells
 
 + Uncommunicative Name
 + Duplicate Code
 + Magic Number
-
----

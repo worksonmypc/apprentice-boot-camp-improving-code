@@ -4,7 +4,7 @@ Note:
 Ask the audience?
 We intentionally haven't used the word legacy in the title of this bootcamp - because it is so loaded.
 
----
+--
 
 ## A pejorative term
 
@@ -15,7 +15,7 @@ We intentionally haven't used the word legacy in the title of this bootcamp - be
 Note:
 These are all common perceptions - and perhaps what the audience will have suggested.
 
----
+--
 
 ## Where does it come from?
 
@@ -27,7 +27,7 @@ Note:
 Expect the audience to suggest it comes from elsewhere.
 Emphasise our role in creating it.
 
----
+--
 
 > The existing code is quite good.
 
@@ -36,7 +36,7 @@ Emphasise our role in creating it.
 Note:
 All pre-existing code is typically regarded as poor quality.
 
----
+--
 
 > Which idiot wrote this?
 
@@ -47,14 +47,14 @@ Use of term idiot is intentional to indicate the strength of feeling around thes
 Talk about appropriate language?
 Mention `git blame` and the use of version control for auditing.
 
----
+--
 
 <img height="600" src="images/your-country-wants-you.jpg">
 
 Note:
 The emphasis here is not to be so quick to judge - we are often the culprit.
 
----
+--
 
 ## Clever is a circular scale
 
@@ -63,7 +63,7 @@ Note:
 We do the wrong thing even with the best of intentions.
 The second system effect - Fred Brooks
 
----
+--
 
 ## Embrace the legacy
 
@@ -79,7 +79,7 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
   * Java folk: import the `exercises/java` directory using ‘Import project from external model’
   * Choose ‘Use default gradle wrapper (recommended)’
 
----
+--
 
 ## Reading code
 
@@ -88,7 +88,7 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 + Good developers spend ~10x as long reading
 + Developers who only write create debt
 
----
+--
 
 ## Codebase
 
@@ -96,7 +96,7 @@ Refactoring codebase called ‘Trivia’
 
 Notes: Used in ‘Legacy Code Retreat’ workshops
 
----
+--
 
 ## Exercise: Read and try to understand the code (15 mins?)
 
