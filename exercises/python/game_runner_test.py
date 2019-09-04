@@ -8,13 +8,15 @@ class GameRunnerTest(unittest.TestCase):
         
     def test_golden_master(self):
         original_out = sys.stdout
-        for i in range(0, 10000):
+        for i in range(0, 10):
             out_content = StringIO()
             sys.stdout = out_content
 
             run(i)
-            self.assertEqual(str(out_content.getvalue()), GoldenMaster().get_result(i))
-        sys.stdout = original_out
+            sys.stdout = original_out
+
+            result = GoldenMaster().get_result(i)
+            self.assertEqual(str(out_content.getvalue()), result)
 
 
 if __name__ == '__main__':
