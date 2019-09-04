@@ -13,7 +13,9 @@ class GoldenMaster:
     def get_result(self, i):
         result = None
         try:
-            result = open('./resources/output%d.txt', 'r')
+            master_file = open('./resources/output%d.txt' % i, 'r')
+            result = master_file.read()
+            master_file.close()
 
         except IOError:
             result = self.generate_expected_result(i)
