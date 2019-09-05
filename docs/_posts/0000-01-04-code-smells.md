@@ -176,6 +176,21 @@ TODO
 
 --
 
+```java
+    public static Page from(String... pageIds) {
+        if (pageIds.length == 2) {
+            return from(pageIds[0], pageIds[1]);
+        }
+        return from(pageIds[0], "");
+    }
+
+    private boolean isInvalid(int statusCode) {
+        return statusCode < 200 || statusCode >= 300;
+    }
+```
+
+--
+
 
 # Long Method
 
