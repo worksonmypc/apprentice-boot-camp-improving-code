@@ -1,12 +1,4 @@
-### Another three smells
-
-* Long method
-* Conditional complexity
-* Large class
-
----
-
-# Static Analysis
+## Static Analysis
 
 --
 
@@ -68,7 +60,7 @@ Example: [SonarQube](https://www.sonarqube.org)
 
 --
 
-# Code City
+## Code City
 
 <backgroundimage>images/softvis3d.png</backgroundimage>
 <backgroundimageopacity>0.3</backgroundimageopacity>

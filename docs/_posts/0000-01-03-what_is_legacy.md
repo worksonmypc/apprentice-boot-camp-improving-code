@@ -1,4 +1,4 @@
-# What is "legacy" code?
+## What is "legacy" code?
 
 Note:
 Ask the audience?
@@ -82,7 +82,7 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 ---
 
-# Exercise prep
+## Exercise prep
 
 * Go here:
  

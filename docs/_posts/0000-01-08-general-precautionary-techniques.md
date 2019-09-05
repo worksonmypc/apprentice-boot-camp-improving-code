@@ -1,4 +1,4 @@
-# When changing existing code…
+## When changing existing code…
 
 There are some techniques you can use that allow you to make changes safely
 
@@ -25,7 +25,7 @@ Notes: Think about it as strangling original code
 
 --
 
-# Small chunks
+## Small chunks
 
 <backgroundimage>https://live.staticflickr.com/4048/4679754721_368012b09e_b.jpg</backgroundimage>
 <backgroundimageopacity>0.3</backgroundimageopacity>
@@ -40,14 +40,14 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 
 --
 
-### Look before you leap
+## Look before you leap
 
 + Is this tested?
 + Checking coverage
 
 --
 
-### Delete/break code and run the tests
+## Delete/break code and run the tests
 
 + Coverage lies
 + Don’t trust tests that haven’t failed
@@ -59,7 +59,7 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 <backgroundimage>https://live.staticflickr.com/57/219076983_bbd8a3e932_b.jpg</backgroundimage>
 <backgroundimageopacity>0.3</backgroundimageopacity>
 
-### Add tests before changing
+## Add tests before changing
 
 + If code uncovered, don’t change it
 + Work out what it is meant to do
@@ -71,7 +71,7 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 
 --
 
-### Don’t read the comments
+## Don’t read the comments
 
 + Comments lie
 + Read them, but be sceptical
@@ -84,7 +84,7 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 <backgroundimage>https://live.staticflickr.com/3342/3308347220_ec8136980c.jpg</backgroundimage>
 <backgroundimageopacity>0.1</backgroundimageopacity>
 
-### Be conscious about what you couple to
+## Be conscious about what you couple to
 
 + Know where the dragons live
 + Good code must not be tightly coupled to bad code

@@ -1,4 +1,6 @@
-# Code Smells
+## Code Smells
+
+(but not all code)
 
 --
 
@@ -74,9 +76,10 @@ Notes: Conventions have appeared over the years.
 
 --
 
-## Today…
+## Upcoming exercise…
 
-Explore *some* smells
++ Explore *some* smells
++ Practice addressing them
 
 ---
 
@@ -91,34 +94,46 @@ Notes: Going to be using QWAN Refactoring Cards
 
 <img src="images/smells-refactoring-cards-sample.png">
 
-### Two types of card
+## Two types of card
 
 + Smell cards: help you identify the smell and suggest solutions
 + Refactor cards: explain what the suggested refactors achieve
 
---
-
-Purpose: give you a framework to improve existing code until it becomes natural
-
-Notes: This takes some of the opinion and emotion out of it
+Notes: Using the cards levels the playing field  
+    Less speculation  
+    Less ego  
 
 --
 
-### QWAN Card Technique
+## How to use the QWAN Cards
 
 + When you find something that smells, find the appropriate card
 + Place the card down, and read the advice
-+ Find the refactors it references, and place those underneath
-+ Pick the appropriate refactor and apply it
++ Find the refactors it references
++ Pick the appropriate refactor and place it next to the smell card
++ Carry out your refactor
 + Continue reading and start again
+
+--
+
+### https://sourcemaking.com/refactoring/smells
+
++ Excellent resource
++ Alternative to the cards
++ Goes into more detail
++ Use the cards but feel free to explore website if you need more detail
 
 --
 
 ## First three smells
 
---
++ Uncommunicative Name
++ Duplicate Code
++ Magic Number
 
-### Uncommunicative Name
+---
+
+## Smell One: Uncommunicative Name
 
 > Naming things is hard
 
@@ -131,7 +146,7 @@ Notes: This takes some of the opinion and emotion out of it
 
 --
 
-## Recognising bad name
+## Recognising bad names
 
 + single letter names
 + abbreviations
@@ -155,16 +170,38 @@ boolean containsLabel(String name, List labels) {
 
 --
 
-### How to fix bad names?
+## How to fix bad names?
 
 + Erm... rename things
 + Variables
 + Methods
 + Classes
 
+---
+
+## Smell Two: Duplicate Code
+
++ This is a tricky one
++ Easiest to get wrong
++ Duplicate lines
++ Duplicate methods
++ Duplicate files
++ Duplicate knowledge
+
 --
 
-### Duplicate Code
+## Where does duplication come from?
+
++ Not knowing something already exists
++ Failing to extract constants
++ Copy pasta
++ Wanting something similar, but slightly different
++ Not understanding how to encapsulate knowledge in one place
++ Being in a hurry—introducing duplication is quicker
++ Being interrupted during proper work flow
+    + Best to introduce duplication first then address it 
+
+--
 
 ```java
 protected Redirect validRequest(Context request) {
@@ -182,17 +219,29 @@ protected Redirect invalidRequest(Context request) {
 }
 ```
 
+Notes: Where is the duplication?
+
 --
 
-### Magic Number
+## Addressing duplication
+
++ Extract Variable / Method / Class
++ Pull Up Method
++ Form Template Method
+
+---
+
+## Smell Three: Magic Number
 
 + Literal values in the code
 + Can’t understand meaning of the number from it’s value
-+ e.g. 3735928559, 3.14159
++ e.g. OxDEADBEEF, 3.14159
+
+Notes: First is a famous IBM error code, second is Pi  
 
 --
 
-### Why do we end up with magic numbers?
+## Why do we end up with magic numbers?
 
 + Sometimes natural way to write expressions
 + Don’t anticipate duplication
@@ -200,7 +249,7 @@ protected Redirect invalidRequest(Context request) {
 
 --
 
-### Recognising Magic Numbers
+## Recognising Magic Numbers
 
 + Can see literal values in the code
 + The magic numbers may be duplicated
@@ -234,96 +283,24 @@ protected Redirect invalidRequest(Context request) {
 
 --
 
-### Fixing Magic Numbers
+## Fixing Magic Numbers
 
 + Extract value of the number to a well named constant
 + Careful: not every use of a literal has the same meaning!
 
 --
 
-### Long Method
-
-+ How long should a method be?
-+ Most readable if ten lines at the most
-
-Notes: Companies tend to have one or two thousand line methods kicking around
-
---
-
-### Recognising Long Methods
-
-+ Having to scroll…
-+ Count the lines?
-
---
-
-### How does it happen?
-
-+ It starts small
-+ I’ll just add one line…
-+ I’ll just add one line…
-+ I’ll just add one line…
-+ It’s pretty long… one more line won’t hurt…
-
---
-
-```java
-    public static String formatDate(String reminderDate) {
-        String dateDay = reminderDate.substring(8, 10);
-        String dateMonth = reminderDate.substring(5, 7);
-        String dateYear = reminderDate.substring(2, 4);
-        String[] month = new String[]{"", "Jan", "Feb", "Mar", "Apr", "May",
-                "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
- 
-        if (ZERO.equals(dateMonth.substring(0, 1))) {
-            dateMonth = dateMonth.substring(1, 2);
-        }
-        String displayMonth = month[Integer.parseInt(dateMonth, 10)];
- 
-        String pattern = "";
-        if (ONE.equals(dateDay) || TWENTY_ONE.equals(dateDay)
-                || THIRTY_ONE.equals(dateDay)) {
-            pattern = "st";
-        } else if (TWO.equals(dateDay) || TWENTY_TWO.equals(dateDay)) {
-            pattern = "nd";
-        } else if (THREE.equals(dateDay) || TWENTY_THREE.equals(dateDay)) {
-            pattern = "rd";
-        } else {
-            pattern = "th";
-        }
- 
-        if (ZERO.equals(dateDay.substring(0, 1))) {
-            dateDay = dateDay.substring(1, 2);
-        }
- 
-        return dateDay + pattern + " " + displayMonth + " " + dateYear;
-    }
-```
-
---
-
-### How to fix Long Methods
-
-+ Extract method
-+ Replace temporary variable with query
-+ Introduce parameter object
-+ Decompose conditional (i.e. extract methods)
-+ Replace method with method object
-
---
-
-### Recap
+## Recap
 
 + Uncommunicative Name
 + Duplicate Code
 + Magic Number
-+ Long Methods
 
 Notes: Don’t worry… all on the cards
 
 --
 
-### Coverage
+## Coverage
 
 + Covering this code is not in scope  
 + We’ve covered the code with single exhaustive test
@@ -332,7 +309,7 @@ Notes: Don’t worry… all on the cards
 
 --
 
-### Exercise: address these smells (30 mins)
+## Exercise: address these smells (30 mins)
 
 TODO
 
