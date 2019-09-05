@@ -131,31 +131,7 @@ Notes: This takes some of the opinion and emotion out of it
 
 --
 
-### How to fix bad names?
-
-+ Erm... rename things
-+ Variables
-+ Methods
-+ Classes
-
---
-
-+ Duplicate Code
-+ Magic Number
-+ Long Method
-
---
-
-## Uncommunicative Name
-
-> A name that doesn’t communicate its intent well enough.
->
-> Poor names make it harder to understand what’s going on in the code. They can also be misinterpreted and hurt the flow of reading.
-
---
-
-## Uncommunicative Name
-### Recognition
+## Recognising bad name
 
 + single letter names
 + abbreviations
@@ -179,10 +155,12 @@ boolean containsLabel(String name, List labels) {
 
 --
 
-## Uncommunicative Name
-### Refactoring
+### How to fix bad names?
 
-+ Rename variable / field / method / class
++ Erm... rename things
++ Variables
++ Methods
++ Classes
 
 --
 
