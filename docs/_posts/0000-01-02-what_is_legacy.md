@@ -31,7 +31,7 @@ Emphasise our role in creating it.
 
 > The existing code is quite good.
 
-\- _No Developer Ever_
++\- _No Developer Ever_
 
 Note:
 All pre-existing code is typically regarded as poor quality.
@@ -122,6 +122,7 @@ Notes: Used in ‘Legacy Code Retreat’ workshops
 * What does the code represent?
 * What concepts do we have?
 * How does it work?
+* What do we think of it?
 
 --
 

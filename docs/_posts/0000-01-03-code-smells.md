@@ -34,10 +34,16 @@ Further developed and popularised by Martin Fowler
 
 --
 
-### Why ‘smell’?
+> If it stinks, change it.
+
+_\- Grandma Beck, discussing child-rearing philosophy*_
 
 + Things can smell ‘off’ without knowing why: ‘the sniff test’
 + Your sense of smell will improve
+
+<div style="font-size:0.25em">
+    * Martin Fowler - Refactoring
+</div>
 
 Notes: Everyone has a sense of smell  
   Can become more refined  
@@ -92,8 +98,31 @@ Notes: This takes some of the opinion and emotion out of it
 
 --
 
-### First three smells
+## First three smells
 
-+ Uncommunicative Name
+--
+
+### Uncommunicative Name
+
+> Naming things is hard
+
+<div style="font-size:0.25em">\- https://martinfowler.com/bliki/TwoHardThings.html</div>
+
+
++ Bad names make things difficult to understand
++ May indicate a poor design
+
+
+--
+
+### How to fix bad names?
+
++ Erm... rename things
++ Variables
++ Methods
++ Classes
+
+--
+
 + Duplicate Code
 + Magic Number

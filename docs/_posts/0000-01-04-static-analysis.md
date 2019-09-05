@@ -1,3 +1,11 @@
+### Another three smells
+
+* Long method
+* Conditional complexity
+* Large class
+
+---
+
 # Static Analysis
 
 --
