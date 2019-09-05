@@ -38,6 +38,16 @@ All pre-existing code is typically regarded as poor quality.
 
 --
 
+## There is a lot of existing code
+
++ Google is two billion LOC (lines of code)
++ Auto Trader has 42 MLOC (17 MLOC Java, website is 1.5 MLOC)
++ 111 billion lines of new code created every year ([2017 estimate](https://cybersecurityventures.com/application-security-report-2017/))
+  + They are not all good lines of code
++ [Lines of code infographic](https://informationisbeautiful.net/visualizations/million-lines-of-code/)
+
+--
+
 > Which idiot wrote this?
 
 + `git blame Legacy.java`

@@ -3,6 +3,15 @@
 
 --
 
+Purpose: provide language to discuss problems
+
++ Less ambiguous if language is shared
++ Takes ego away from conversation
++ Helps you identify issues
++ Suggests resolutions
+
+--
+
 > A code smell is a hint that something has gone wrong somewhere in your code. Use the smell to track down the problem.  
 >   
 > Note that a CodeSmell is a hint that something might be wrong, not a certainty.  
@@ -126,3 +135,60 @@ Notes: This takes some of the opinion and emotion out of it
 
 + Duplicate Code
 + Magic Number
++ Long Method
+
+--
+
+# Uncommunicative Name
+
+TODO
+
+--
+
+# Duplicate Code
+
+TODO
+
+--
+
+# Magic Number
+
+TODO
+
+--
+
+
+# Long Method
+
+TODO
+
+--
+
+# Coverage
+
++ Covering this code is not in scope  
++ We’ve covered the code with single exhaustive test
++ Test is interesting, but not part of today’s learning
++ If tests help you, feel free to add them
+
+--
+
+Exercise: address these smells (30 mins)
+
+TODO
+
++ After each change, run all of the tests
++ Commit if green
++ Revert if red
+
+Notes: If working in small chunks reverting not a big deal  
+    Remember you can have tests running automatically in IntelliJ  
+    Run *all* of the tests  
+    
+--
+
+Exercise 2: more smells
+
++ Conditional Complexity
+
+TODO expand and move this later
