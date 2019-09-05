@@ -68,6 +68,14 @@ Example: [SonarQube](https://www.sonarqube.org)
 
 --
 
+# Code City
+
+<backgroundimage>images/softvis3d.png</backgroundimage>
+<backgroundimageopacity>0.3</backgroundimageopacity>
+Sonarqube can visualise your design to help you understand quality
+
+--
+
 ## GitHub Integration
 
 Analyse code after every push
