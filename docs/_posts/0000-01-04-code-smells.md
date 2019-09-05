@@ -1,9 +1,10 @@
-
 # Code Smells
 
 --
 
-Purpose: provide language to discuss problems
+## Purpose:
+
+### Provide language to discuss problems
 
 + Less ambiguous if language is shared
 + Takes ego away from conversation
@@ -26,11 +27,14 @@ Purpose: provide language to discuss problems
 Originated from Kent Beck’s [Once And Only Once](http://wiki.c2.com/?OnceAndOnlyOnce) rule.  
 (see also [CodeSmell](http://wiki.c2.com/?CodeSmell)).
 
+> The program should express each idea once and only once - there should be no duplicate code.
+
 <small>
 [This file](https://www.flickr.com/photos/8512982@N05/1574023621/) is licensed under the Creative Commons [Attribution-Share Alike 2.0 Generic](https://creativecommons.org/licenses/by-sa/2.0/deed.en) license.
 </small>
 
-Note: Kent also created extreme programming, helped form the Agile Manifesto, is the leading proponent of TDD, spawned unit testing frameworks and popularised CRC cards.
+Note: Kent also created extreme programming, helped form the Agile Manifesto, is the leading proponent of TDD, spawned unit testing frameworks and popularised CRC cards.  
+  OAOO similar to DRY but subtly different  
 
 --
 
@@ -61,7 +65,9 @@ Notes: Everyone has a sense of smell
 
 --
 
-No single definitive list of smells
+## No single definitive list of smells
+
+You’ll find smells referenced in one list which aren’t described in another 
 
 Notes: Conventions have appeared over the years.  
   You may recognise some of them.  
@@ -75,8 +81,9 @@ Explore *some* smells
 ---
 
 <backgroundimage>images/qwan-refactoring-cards.jpg</backgroundimage>
+<backgroundimageopacity>0.3</backgroundimageopacity>
 
-QWAN Refactoring Cards
+## QWAN Refactoring Cards
 
 Notes: Going to be using QWAN Refactoring Cards  
 
@@ -139,9 +146,43 @@ Notes: This takes some of the opinion and emotion out of it
 
 --
 
-# Uncommunicative Name
+## Uncommunicative Name
 
-TODO
+> A name that doesn’t communicate its intent well enough.
+>
+> Poor names make it harder to understand what’s going on in the code. They can also be misinterpreted and hurt the flow of reading.
+
+--
+
+## Uncommunicative Name
+### Recognition
+
++ single letter names
++ abbreviations
++ technical names
+
+--
+
+```
+boolean containsLabel(String name, List labels) {
+    for (int i = 0; i < labels.size(); i++) {
+
+        if ((labels.get(i).name.toLowerCase())
+                .equals(name.toLowerCase())) {
+            return true
+        }
+    }
+
+    return false
+}
+```
+
+--
+
+## Uncommunicative Name
+### Refactoring
+
++ Rename variable / field / method / class
 
 --
 
