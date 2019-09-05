@@ -74,6 +74,8 @@ Example: [SonarQube](https://www.sonarqube.org)
 <backgroundimageopacity>0.3</backgroundimageopacity>
 Sonarqube can visualise your design to help you understand quality
 
+Notes: Width is complexity, height LOC, colour issues
+
 --
 
 ## GitHub Integration
