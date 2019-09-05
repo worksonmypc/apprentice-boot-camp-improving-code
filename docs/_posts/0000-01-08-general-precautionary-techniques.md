@@ -40,31 +40,43 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 
 --
 
-# Look before you leap
+### Look before you leap
 
 + Is this tested?
 + Checking coverage
-+ Coverage lies
-+ Don’t trust tests that haven’t failed
 
 --
 
 ### Delete/break code and run the tests
+
++ Coverage lies
++ Don’t trust tests that haven’t failed
 + Only sure fire way to check code tested
 + Check *why* it fails
 
 --
 
+<backgroundimage>https://live.staticflickr.com/57/219076983_bbd8a3e932_b.jpg</backgroundimage>
+<backgroundimageopacity>0.3</backgroundimageopacity>
+
 ### Add tests before changing
 
-TODO add background of scaffolding
++ If code uncovered, don’t change it
++ Work out what it is meant to do
++ Add tests that check it does what it is meant to
++ You may find it doesn’t…
++ Then test drive your change
+
+<p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/70534377@N00/219076983">"trapgevel"</a><span>by <a href="https://www.flickr.com/photos/70534377@N00">tuppus</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a></p>
 
 --
 
-# Don’t read the comments
+### Don’t read the comments
 
 + Comments lie
-+ Form of duplication
++ Read them, but be sceptical
++ Comments are a form of duplication
++ Duplication leads to divergence
 + They will erode, particularly in large old codebases
 
 --
@@ -72,14 +84,14 @@ TODO add background of scaffolding
 <backgroundimage>https://live.staticflickr.com/3342/3308347220_ec8136980c.jpg</backgroundimage>
 <backgroundimageopacity>0.1</backgroundimageopacity>
 
-## Careful what you couple to
+### Be conscious about what you couple to
 
 + Know where the dragons live
-+ Good code can’t be tightly coupled to bad code
++ Good code must not be tightly coupled to bad code
 + Introduce boundaries
     + Package level boundaries
     + Modular boundaries
     + Codebase boundaries
-+ Introduce extension points first
++ Introduce extension points first to facilitate change
 
 <p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/48034913@N00/3308347220">"Map of Middle Earth"</a><span>by <a href="https://www.flickr.com/photos/48034913@N00">Josh Calvetti</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p>
