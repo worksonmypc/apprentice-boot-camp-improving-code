@@ -74,10 +74,20 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 # Exercise prep
 
-* `git clone https://github.com/MCR-Digital/apprentice-bootcamp-fundamentals-3`
-* Make sure the tests pass in your language
-  * Java folk: import the `exercises/java` directory using ‘Import project from external model’
-  * Choose ‘Use default gradle wrapper (recommended)’
+* Go here:
+ 
+ https://github.com/MCR-Digital/apprentice-boot-camp-improving-code
+* Click the **Fork** button to make your own copy of the repository
+* `git clone https://github.com/<YOUR_USERNAME>/apprentice-boot-camp-improving-code`
+
+--
+
+## Make sure the tests pass
+  * Java folk
+    * import the `exercises/java` directory using ‘Import project from external model’
+    * Choose ‘Use default gradle wrapper (recommended)’
+  * Other languages
+    * ask your mentors how to go about it
 
 --
 
@@ -104,4 +114,35 @@ Notes: Used in ‘Legacy Code Retreat’ workshops
 + Do not change the code
 + Do try to understand
 + Drawing things will help… flow chart?
-+ Use materials to craft the board for the game
+
+--
+
+## Recap - What have we discovered?
+
+* What does the code represent?
+* What concepts do we have?
+* How does it work?
+
+--
+
+## Here's one I made earlier... (15 mins?)
+
+<backgroundimage>images/Blue_peter_badge.jpg</backgroundimage>
+<backgroundimageopacity>0.25</backgroundimageopacity>
+<!-- .slide: data-background-repeat="repeat" -->
+<!-- .slide: data-background-size="100px" -->
+
++ Groups of 4 or 5
++ Use your best cutting and sticking skills to make a physical copy of the game
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+</a>
+<div style="font-size:0.25em">
+This work is licensed under a 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</div>
+
+--
+
+## Review - what did we end up with?
