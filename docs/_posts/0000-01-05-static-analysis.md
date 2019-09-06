@@ -2,19 +2,24 @@
 
 --
 
-Static Analysis involves using automated processes to analyse code
+## Automated processes to analyse code
 
-(vs Code Review which is a human process)
+(versus Code Review which is a human process)
 
 Note: ask why it is static  
 
 --
 
-Static (as opposed to dynamic) as the code is not actually executed
+## Static (as opposed to dynamic)
+
+Means the code is not actually executed
 
 --
 
-Limits: can only detect common mistakes, syntax issues, potential bugs, but not actual errors
+## Limited
+
++ Can only detect common mistakes, syntax issues, potential bugs, but not actual errors
++ Can’t detect good code!
 
 --
 
@@ -27,7 +32,9 @@ Note: draw connection between compile time errors vs run time errors
 
 --
 
-Static analysis can apply predefined rules to large codebases to quickly report on a number of measures such as:
+## Predefined rules
+
+Run on large codebases to report on measures such as:
 
 + Common mistakes (e.g. unassigned return values, addition / increment confusion in loop construction)
 + Poor design (e.g. circular dependencies / package tangle)
@@ -39,12 +46,35 @@ Note: ask about coverage and whether it is measurable using static analysis—re
 
 --
 
+## Issue Suppression
+
++ Can usually suppress warnings using comments or annotations.
++ Important to understand what you are suppressing.
++ Much better to fix
+
+--
+
+## Rule Configuration
+
++ Difficult subject
++ Important to have buy in
++ Better not to tweak too much
++ Trade off between signal to noise ratio and quality
+
+--
+
 ## Continuous Integration
 
 You can include static analysis in your CI pipeline
 
 Note: arguably not sensible to fail the build based on SA  
   Often leads to frustration and tweaked thresholds 
+
+--
+
+## Common tools behind the scenes
+
+Usually combining results from multiple tools such as Checkstyle, PMD, findbugs, Error Prone…
 
 --
 

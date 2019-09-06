@@ -16,6 +16,8 @@
 * Post-its
 * Pens
 * Whiteboard
+* Paper
+* Sticky tape
 
 ## Mentors / Languages
  
@@ -33,12 +35,16 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * Apply code smell searching and refactoring to portfolio work and document
 * Maybe use the QWAN cards as a teaching resource to help organise refactoring work
 * Apprentices should be involved in some code review activities—providing them for their colleagues and receiving them
+* Configure and review static analysis for a project (use [Codacy](https://app.codacy.com/) if no solutions available and code is public)
 
 ## Further reading / learning resources
 
 <!--- For end of boot camp: Signposting for apprentices self study, further learning, online resources, practice etc. --->
 
 * Working Effectively With Legacy Code
+* [The Art of Giving and Receiving Code Reviews (Gracefully)](https://www.youtube.com/watch?v=hfrNmZIPq3E) (30 minutes)
+* [QWAN Code Smells and Refactoring Cue Cards](http://www.qwan.eu/shop)
+* [Source Making’s section on Code Smells](https://sourcemaking.com/refactoring/smells)—this is an excellent site, and super accessible
  
 ## Slides
 
@@ -47,60 +53,23 @@ The slides can be viewed from the link at the top of the repository.
 ## Exercises
 
 * TBC
-<!--- 
-* Setting up CI?
-* Branching and creating Pull Requests?
-* Resolving, tracing, telneting?
----> 
 
 # Boot Camp Summary
 
 
 ## Planned
 
-* Working with products and Refining requirements
-* Agile + related methodologies
-* Coupling and Cohesion
-* Revisit data store - Relational vs Not
-* CRC + Diagrams / OO Design
-* Composition vs Inheritance
+* Refactoring
+* Static Analysis
+* More on Coupling
+* Code Smells
+* Legacy Code
+* Design Patterns
 
-## Carried over
+## Not covered
 
-* Test Doubles
-* Dependency Injection
-* Mocking frameworks
-* 2nd Tier of Testing Pyramid
-* Intro to Data Stores - Repo Pattern
-* Continuous Integration as a demo
-* CI practical
-* Branching / PRs
-* Trunk development vs branch development
-* How the internet works
-
-<!--- 
-
-## Continuous Integration
-
-* What is CI
-* Why is CI important
-* Demo of how CI can be applied to a project (Travis or similar against public repo)
-* CI practical—setting up Travis or similar on own repo?
-
-## More on source control
-
-* Branching
-* Pull requests
-* Trunk vs branch development
-
-# How the internet works
-
-* Hostnames, IP, DNS
-* Networking
-* Physical infrastructure
-* HTTP
-
---->
+* Design Patterns
+* More on Coupling
 
 # Briefing for organisation mentors
 
