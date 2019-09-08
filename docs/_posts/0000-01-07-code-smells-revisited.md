@@ -174,5 +174,52 @@ vehicle.getVehicleCheckStatus();
 
 ## Smell Six: Large Class
 
++ Similar to a long method
++ Too many fields
++ Too many methods
++ Too many lines of code
++ Too many responsibilities
++ Duplication is likely
 
--- 
+<backgroundimage>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Textured_spork.png/512px-Textured_spork.png</backgroundimage>
+<!-- .slide: data-background-size="512px 512px" -->
+<!-- .slide: data-background-repeat="repeat" -->
+<!-- .slide: data-background-opacity="0.3" -->
+
+
+<div style="font-size: 0.25em">
+    Spork.jpg: Jason L. Gohlkederivative work: Plasticspork [<a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>], <a href="https://commons.wikimedia.org/wiki/File:Textured_spork.png">via Wikimedia Commons</a>
+</div>
+
+
+--
+
+## How do large classes happen?
+
++ Similar to long methods
+    * They grow over time
++ Indicate an absence of refactoring
+
+--
+
+## How to fix them?
+
++ Split them up
++ Extract a class
++ Use inheritance
+    * Extract super class or subclass
+
+--
+
+
+## Exercise: address these smells
+(60 mins?)
+
+* Long method
+* Conditional complexity
+* Large class
+
+Notes:
+Keep changes small
+Commit little and often
+Keep running the tests

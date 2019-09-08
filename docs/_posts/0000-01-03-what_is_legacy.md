@@ -31,7 +31,7 @@ Emphasise our role in creating it.
 
 > The existing code is quite good.
 
-+\- _No Developer Ever_
++ _No Developer Ever_
 
 Note:
 All pre-existing code is typically regarded as poor quality.
@@ -66,7 +66,7 @@ The emphasis here is not to be so quick to judge - we are often the culprit.
 
 --
 
-## Reasons for legacy code
+## Reasons for __bad__ code
 
 > The road to hell is paved with good intentions...
 
