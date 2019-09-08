@@ -6,7 +6,7 @@ We intentionally haven't used the word legacy in the title of this bootcamp - be
 
 --
 
-## A pejorative term
+## A pejorative term?
 
 + Old
 + Dirty
@@ -59,23 +59,55 @@ Mention `git blame` and the use of version control for auditing.
 
 --
 
-<img height="600" src="images/your-country-wants-you.jpg">
+<img height="600" src="{{ site.github.url }}/images/your-country-wants-you.jpg"/>
 
 Note:
 The emphasis here is not to be so quick to judge - we are often the culprit.
 
 --
 
+## Reasons for legacy code
+
+> The road to hell is paved with good intentions...
+
+\- proverb
+
+--
+
 ## Clever is a circular scale
 
+<img src="{{ site.github.url }}/images/smart_dumb.png"/>
 
 Note:
 We do the wrong thing even with the best of intentions.
-The second system effect - Fred Brooks
+
+--
+
+### The second system effect
+
+> An architect's first work is apt to be spare and clean. He knows he doesn't know what he's doing, so he does it carefully and with great restraint.
+
+> The general tendency is to over-design the second system, using all the ideas and frills that were cautiously sidetracked on the first one.
+
+<div style="font-size: 0.25em">\- The Mythical Man-Month - Fred Brooks</div>
+
+Notes:
+YAGNI - Extreme Programming Installed, Ronald E. Jeffries,
+
+--
+
+### Excuses
+
++ Not enough time
++ Blame the tools
++ Blame the people
++ We didn't know what we wanted when we started
 
 --
 
 ## Embrace the legacy
+
+<img height="500" src="https://i.imgur.com/ov1XeHo.jpg"/>
 
 Note:
 We need to take ownership of legacy code and help ensure we don't leave behind a _Big Ball of Mud_ for those who follow.
@@ -138,7 +170,7 @@ Notes: Used in ‘Legacy Code Retreat’ workshops
 
 ## Here's one I made earlier... (15 mins?)
 
-<backgroundimage>images/Blue_peter_badge.jpg</backgroundimage>
+<backgroundimage>{{ site.github.url }}/images/Blue_peter_badge.jpg</backgroundimage>
 <backgroundimageopacity>0.25</backgroundimageopacity>
 <!-- .slide: data-background-repeat="repeat" -->
 <!-- .slide: data-background-size="100px" -->
