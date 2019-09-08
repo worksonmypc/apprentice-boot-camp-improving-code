@@ -74,3 +74,105 @@ Notes: Companies tend to have one or two thousand line methods kicking around
 + Introduce parameter object
 + Decompose conditional (i.e. extract methods)
 + Replace method with method object
+
+--
+
+## Smell Five: Conditional complexity
+
++ Deeply nested `if else` statements
+```
+if (!model.matches(".*\\d+.*")) {
+    if (model.length() < 4) {
+        model = model.toUpperCase();
+    } else if (model.charAt(2) == ' ') {
+        model = model.substring(0, 3).toUpperCase() + initCap(model.substring(3));
+    } else {
+        model = initCap(model);
+    }
+}
+```
++ code can be wide as well as long
++ `switch` statements
+
+--
+
+## No `if`s no buts or `else`!
+
++ How many conditionals are acceptable?
++ Be _if-ist_
++ Frequently seen in the wild
+
+Notes:
+Highlight the opposing points of view form OO purists to common attitudes.
+
+--
+
+## How to resolve conditional complexity
+
++ Extract method
++ Replace conditional with polymorphism
+
+--
+
+```java
+class Vehicle {
+    String vehicleType;
+}
+
+...
+
+if (vehicleType.equals("CARS") {
+    return "Vehicle Check Available";
+} else if (vehicleType.equals("BIKE") {
+    return "Vehicle Check Coming Soon!"
+} else {
+    return "Vehicle Check Unavailable";
+}
+```
+
+--
+
+```java
+class Vehicle {
+    String getVehicleCheckStatus(){
+        return "Vehicle Check Unavailable"
+    }
+}
+
+class Car extends Vehicle{
+    String getVehicleCheckStatus(){
+        return "Vehicle Check Available";
+    }
+}
+
+class Bike extends Vehicle{
+    String getVehicleCheckStatus(){
+        return "Vehicle Check Coming Soon!"
+    }
+}
+```
+
+--
+
+```java
+
+if (vehicleType.equals("CARS") {
+    return "Vehicle Check Available";
+} else if (vehicleType.equals("BIKE") {
+    return "Vehicle Check Coming Soon!"
+} else {
+    return "Vehicle Check Unavailable";
+}
+```
+vs
+
+```java
+vehicle.getVehicleCheckStatus();
+```
+
+--
+
+## Smell Six: Large Class
+
+
+-- 
