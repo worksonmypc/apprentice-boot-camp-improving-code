@@ -133,6 +133,7 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
   * Other languages
     * ask your mentors how to go about it
 
+Notes: Use https://www.jetbrains.com/help/idea/work-with-gradle-projects.html#delegate_build_actions to fix test running
 --
 
 ## Reading code
