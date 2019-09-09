@@ -7,16 +7,38 @@ using System.Threading.Tasks;
 
 namespace TriviaGame
 {
-    public class GameRunner
+   public class GameRunner
     {
-        public static void Main(string[] args)
+
+        private static bool notAWinner;
+
+        public static void Main(String[] args)
         {
+            Game aGame = new Game();
 
-            string[] fruitAndVeg = new[] { "apple", "banana", "carrot", "date", "eggplant", "french beans" };
-            Array.Sort(fruitAndVeg);
+            aGame.add("Chet");
+            aGame.add("Pat");
+            aGame.add("Sue");
 
-            Console.WriteLine("First display of produce names to the console:");
-            Array.ForEach(fruitAndVeg, Console.WriteLine);
+            Random rand = new Random(Int32.Parse(args[0]));
+
+            do
+            {
+
+                aGame.roll(rand.Next(5) + 1);
+
+                if (rand.Next(9) == 7)
+                {
+                    notAWinner = aGame.wrongAnswer();
+                }
+                else
+                {
+                    notAWinner = aGame.wasCorrectlyAnswered();
+                }
+
+
+
+            } while (notAWinner);
 
         }
     }
