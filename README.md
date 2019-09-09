@@ -47,6 +47,8 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * [QWAN Code Smells and Refactoring Cue Cards](http://www.qwan.eu/shop)
 * [Source Making’s section on Code Smells](https://sourcemaking.com/refactoring/smells)—this is an excellent site, and super accessible
 * [Decisions, decisions](https://vimeo.com/43536417)—a one hour talk by Dan North about trade-offs, and distinguishing decisions that matter a lot more than others
+* [8 Tips for Great Code Reviews](https://kellysutton.com/2018/10/08/8-tips-for-great-code-reviews.html)—five minute read with some good top level tips, well communicated. Maybe share this at work if review doesn’t go so well?
+* [Awesome code review](https://github.com/joho/awesome-code-review): An "Awesome" list of code review resources - articles, papers, tools, etc
  
 ## Slides
 
