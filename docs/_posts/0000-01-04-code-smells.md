@@ -45,6 +45,7 @@ Note: Kent also created extreme programming, helped form the Agile Manifesto, is
 <!-- .slide: data-background-size="contain" -->
 <!-- .slide: data-background-position="right" -->
 
+TODO
 Further developed and popularised by Martin Fowler 
 
 --
@@ -139,10 +140,8 @@ Notes: Using the cards levels the playing field
 
 <div style="font-size:0.25em">\- https://martinfowler.com/bliki/TwoHardThings.html</div>
 
-
 + Bad names make things difficult to understand
 + May indicate a poor design
-
 
 --
 

@@ -58,7 +58,7 @@ Note: ask about coverage and whether it is measurable using static analysis—re
 
 + Difficult subject
 + Important to have buy in
-+ Better not to tweak too much
++ Better not to tweak too much from defaults
 + Trade off between signal to noise ratio and quality
 
 --

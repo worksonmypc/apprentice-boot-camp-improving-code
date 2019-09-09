@@ -124,7 +124,7 @@ class Vehicle {
 if (vehicleType.equals("CARS") {
     return "Vehicle Check Available";
 } else if (vehicleType.equals("BIKE") {
-    return "Vehicle Check Coming Soon!"
+    return "Vehicle Check Coming Soon!";
 } else {
     return "Vehicle Check Unavailable";
 }
@@ -135,19 +135,17 @@ if (vehicleType.equals("CARS") {
 ```java
 class Vehicle {
     String getVehicleCheckStatus(){
-        return "Vehicle Check Unavailable"
+        return "Vehicle Check Unavailable";
     }
 }
-
 class Car extends Vehicle{
     String getVehicleCheckStatus(){
         return "Vehicle Check Available";
     }
 }
-
 class Bike extends Vehicle{
     String getVehicleCheckStatus(){
-        return "Vehicle Check Coming Soon!"
+        return "Vehicle Check Coming Soon!";
     }
 }
 ```

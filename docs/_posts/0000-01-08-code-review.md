@@ -112,8 +112,7 @@ Notes: See further reading for ‘Decisions decisions’ talk about decisions t
 
 --
 
-## Good practices
-### How to approach
+## Good practices: How to approach
 
 + Seek to understand the goal
 + Ask less experienced people to review your code
@@ -125,15 +124,19 @@ Notes: See further reading for ‘Decisions decisions’ talk about decisions t
 
 --
 
-### What to write
+### Good practices: What to write
 
 + Be polite—read what you wrote and imagine being the audience
 + Praise good code (at least once per review)
 + Support rather than criticise
-    + Be positive: ‘This might be easier to understand if…’
-    + instead of negative: ‘This code is hard to understand’
-+ Only comment on new code—check whether they introduced each issue
-+ Avoid accusative language ‘why did you…’
+    Be positive: ‘This might be easier to understand if…’ instead of negative: ‘This code is hard to understand’
+
+--
+
+### Good practices: What to write (continued)
+
++ Don’t comment on issues they didn’t introduce
++ Avoid accusative language e.g. ‘why did you…’
 + Include reasoning
 + If nitpicking, be explicit e.g. `nit: this should be lower case`
 
@@ -160,6 +163,11 @@ Notes: arguably as important as how it’s delivered
 + Empathy just as important for you
     + They might not be experienced
     + English might not be their first language
+
+--
+
+## How to receive a review (continued)
+
 + Ask if you don’t understand—discussions are good
 + Face time can be much more efficient
 + Check back with the reviewer after addressing changes
@@ -188,7 +196,7 @@ Notes: arguably as important as how it’s delivered
 
 --
 
-## Pairing
+## Ways to review: pairing
 
 + Review is done collaboratively and implicitly
 + Navigator manages task list rather than interrupting flow
@@ -199,7 +207,7 @@ Notes: arguably as important as how it’s delivered
 
 --
 
-## Using GitHub to review code
+## Another way: using GitHub to review code
 
 + Comment on single commits
 + Create reviews on Pull Requests

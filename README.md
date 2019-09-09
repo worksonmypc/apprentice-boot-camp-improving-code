@@ -37,6 +37,7 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * Apprentices should deliver a code review
 * Configure and review static analysis for an existing reasonably sized project (use [Codacy](https://app.codacy.com/) if no existing system in use and the code is publicly available)
 * Java apprentices can also add [Error Prone](https://errorprone.info) to an appropriate project—maybe one in it’s early days so that it is manageable
+* Review their changes in the Code Smell trivia exercise—they can provide you with the address for their fork
 
 ## Further reading / learning resources
 
