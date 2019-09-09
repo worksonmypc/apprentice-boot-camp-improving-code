@@ -19,7 +19,7 @@ Notes: Think about it as strangling original code
 
 ## If rewriting this way
 
-+ You *must* finish your change
++ You *must* finish your change (or abort)
 + You *must* delete the original code
 + Otherwise your code is part of the problem
 
@@ -77,7 +77,7 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 + Read them, but be sceptical
 + Comments are a form of duplication
 + Duplication leads to divergence
-+ They will erode, particularly in large old codebases
++ They will erode, particularly in large old code bases
 
 --
 
@@ -95,3 +95,21 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 + Introduce extension points first to facilitate change
 
 <p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/48034913@N00/3308347220">"Map of Middle Earth"</a><span>by <a href="https://www.flickr.com/photos/48034913@N00">Josh Calvetti</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p>
+
+--
+
+## Separate style changes from substance
+
++ Reformat in separate commit
++ Be cautious—reformatting obscures blame
++ IDEs may automatically reformat
+    + Review your changes
++ Change the minimum—leave whitespace changes out
+
+--
+
+## Use feature flags to derisk changes
+
++ Flag can defer risk until rewrite complete
++ Delays integration of new code
++ Test shielded path?

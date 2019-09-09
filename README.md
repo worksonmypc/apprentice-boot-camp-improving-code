@@ -34,7 +34,7 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * Search for code smells in code-bases back at work
 * Apply code smell searching and refactoring to portfolio work and document
 * Maybe use the QWAN cards as a teaching resource to help organise refactoring work
-* Apprentices should be involved in some code review activities—providing them for their colleagues and receiving them
+* Apprentices should deliver a code review
 * Configure and review static analysis for a project (use [Codacy](https://app.codacy.com/) if no solutions available and code is public)
 
 ## Further reading / learning resources
@@ -45,6 +45,7 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * [The Art of Giving and Receiving Code Reviews (Gracefully)](https://www.youtube.com/watch?v=hfrNmZIPq3E) (30 minutes)
 * [QWAN Code Smells and Refactoring Cue Cards](http://www.qwan.eu/shop)
 * [Source Making’s section on Code Smells](https://sourcemaking.com/refactoring/smells)—this is an excellent site, and super accessible
+* [Decisions, decisions](https://vimeo.com/43536417)—a one hour talk by Dan North about trade-offs, and distinguishing decisions that matter a lot more than others
  
 ## Slides
 
