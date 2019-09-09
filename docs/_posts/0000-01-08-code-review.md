@@ -5,7 +5,7 @@
 + Yet another heuristic
 
 Notes: Who has received a review?  
-    Who has delivered a review?
+    Who has delivered a review?  
 
 --
 
@@ -35,7 +35,7 @@ Notes:
 <background>white</background>
 <figcaption>[From a study by Smartbear](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)</figcaption>
 
-Notes: Disclaimer: Smartbear are a code review product supplier
+Notes: Disclaimer: Smartbear are a code review product supplier  
 
 --
 
@@ -89,7 +89,7 @@ Notes: Leave egos at the door
 
 Notes: Seniority can impact rapport  
     Where is the other developer in their journey?  
-    What pressures were they under?
+    What pressures were they under?  
 
 --
 
@@ -97,8 +97,8 @@ Notes: Seniority can impact rapport
 
 Teaching takes more interaction than a simple comment
 
-Notes: Might need a face-to-face conversation
-    Drawing might help
+Notes: Might need a face-to-face conversation  
+    Drawing might help  
     Consider repetition  
 
 --
@@ -108,7 +108,7 @@ Notes: Might need a face-to-face conversation
 + Signal / noise ratio important
 + People can only absorb so much
 
-Notes: See further reading for ‘Decisions decisions’ talk about decisions that matter
+Notes: See further reading for ‘Decisions decisions’ talk about decisions that matter  
 
 --
 
@@ -151,7 +151,7 @@ Notes: Possible to look back beyond commit in GitHub to check if they introduced
 + Only thing you are in control of is how you react
 + You can make it easier
 
-Notes: arguably as important as how it’s delivered
+Notes: arguably as important as how it’s delivered  
 
 --
 
@@ -239,7 +239,7 @@ See [detailed instructions from GitHub](https://help.github.com/en/articles/revi
 + Summarise & choose whether to ‘Approve’ or ‘Request changes’
 + User is notified
 
-Notes: if finish early, get them to explore protected branches
+Notes: if finish early, get them to explore protected branches  
 
 --
 
@@ -247,5 +247,4 @@ Notes: if finish early, get them to explore protected branches
 
 + Need code to be pushed
 
-Notes: Discuss how it felt to receive the review
-
+Notes: Discuss how it felt to receive the review  

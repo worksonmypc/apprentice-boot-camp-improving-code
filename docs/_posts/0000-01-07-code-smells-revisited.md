@@ -11,7 +11,7 @@
 + How long should a method be?
 + Most readable if ten lines at the most
 
-Notes: Companies tend to have a couple of KLOC methods kicking around
+Notes: Companies tend to have a couple of KLOC methods kicking around  
 
 --
 
@@ -103,7 +103,7 @@ if (!model.matches(".*\\d+.*")) {
 + Frequently seen in the wild
 
 Notes:
-Highlight the opposing points of view form OO purists to common attitudes.
+Highlight the opposing points of view form OO purists to common attitudes.  
 
 --
 
@@ -227,6 +227,6 @@ Note: First step must be to establish what should be the true single responsibil
 
 
 Notes:
-Keep changes small
-Commit little and often
-Keep running the tests
+Keep changes small  
+Commit little and often  
+Keep running the tests  
