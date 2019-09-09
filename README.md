@@ -35,7 +35,8 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * Apply code smell searching and refactoring to portfolio work and document
 * Maybe use the QWAN cards as a teaching resource to help organise refactoring work
 * Apprentices should deliver a code review
-* Configure and review static analysis for a project (use [Codacy](https://app.codacy.com/) if no solutions available and code is public)
+* Configure and review static analysis for an existing reasonably sized project (use [Codacy](https://app.codacy.com/) if no existing system in use and the code is publicly available)
+* Java apprentices can also add [Error Prone](https://errorprone.info) to an appropriate project—maybe one in it’s early days so that it is manageable
 
 ## Further reading / learning resources
 
