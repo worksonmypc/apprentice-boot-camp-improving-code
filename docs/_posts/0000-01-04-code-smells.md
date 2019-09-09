@@ -40,12 +40,8 @@ Note: Kent also created extreme programming, helped form the Agile Manifesto, is
 
 --
 
-<backgroundimage>images/Refactoring-Improving-the-Design-of-Existing-Code.jpg</backgroundimage>
-<backgroundimageopacity>0.2</backgroundimageopacity>
-<!-- .slide: data-background-size="contain" -->
-<!-- .slide: data-background-position="right" -->
+<img src="{{ site.github.url }}/images/Refactoring-Improving-the-Design-of-Existing-Code.jpg">
 
-TODO
 Further developed and popularised by Martin Fowler 
 
 --
@@ -319,11 +315,3 @@ TODO
 Notes: If working in small chunks reverting not a big deal  
     Remember you can have tests running automatically in IntelliJ  
     Run *all* of the tests  
-    
---
-
-Exercise 2: more smells
-
-+ Conditional Complexity
-
-TODO expand and move this later
