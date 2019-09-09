@@ -220,9 +220,12 @@ Note: First step must be to establish what should be the true single responsibil
 ## Exercise: address these smells
 (60 mins?)
 
-* Long method
-* Conditional complexity
-* Large class
+* Address them one at a time:  
+  Long method, Conditional complexity, Large class
++ After each change, run all of the tests
++ Commit if green
++ Revert if red
+
 
 Notes:
 Keep changes small
