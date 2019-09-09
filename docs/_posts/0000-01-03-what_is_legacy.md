@@ -126,8 +126,10 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 ## Make sure the tests pass
   * Java folk
-    * import the `exercises/java` directory using ‘Import project from external model’
-    * Choose ‘Use default gradle wrapper (recommended)’
+    * Import `exercises/java` directory using ‘Import project from external model’
+    * Open Gradle toolbox & reimport project
+    * In Gradle toolbox click settings, change ‘Build and run using’ & ‘Run tests using’ to ‘IntelliJ IDE’
+    * Run `GameRunnerTest` and check you can see `goldenMaster()`
   * Other languages
     * ask your mentors how to go about it
 
