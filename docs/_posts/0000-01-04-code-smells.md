@@ -304,7 +304,7 @@ Notes: Don’t worry… all on the cards
 
 --
 
-## Exercise: address these smells (30 mins)
+## Exercise: address these smells (60 mins)
 
 + Address them one at a time:  
   Uncommunicative Name, Duplicate Code, Magic Number

@@ -217,8 +217,7 @@ Note: First step must be to establish what should be the true single responsibil
 --
 
 
-## Exercise: address these smells
-(60 mins?)
+## Exercise: address these smells (60 mins)
 
 * Address them one at a time:  
   Long method, Conditional complexity, Large class
