@@ -43,11 +43,18 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 
 <!--- For end of boot camp: Signposting for apprentices self study, further learning, online resources, practice etc. --->
 
-* Working Effectively With Legacy Code
+Books:
+* [Working Effectively with Legacy Code, First Edition by Michael Feathers](https://smile.amazon.co.uk/dp/0131177052/ref=cm_sw_r_tw_dp_U_x_bvODDbNBQH6Q6)
+* [Refactoring: Improving the Design of Existing Code by Martin Fowler](https://smile.amazon.co.uk/dp/0134757599/ref=cm_sw_r_tw_dp_U_x_9tODDbHBS3FFA)
+* [Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition by Frederick P. Brooks Jr.](https://smile.amazon.co.uk/dp/0201835959/ref=cm_sw_r_tw_dp_U_x_4vODDbSAZJJ70)
+
+Video:
 * [The Art of Giving and Receiving Code Reviews (Gracefully)](https://www.youtube.com/watch?v=hfrNmZIPq3E) (30 minutes)
+* [Decisions, decisions](https://vimeo.com/43536417)—a one hour talk by Dan North about trade-offs, and distinguishing decisions that matter a lot more than others
+
+Web:
 * [QWAN Code Smells and Refactoring Cue Cards](http://www.qwan.eu/shop)
 * [Source Making’s section on Code Smells](https://sourcemaking.com/refactoring/smells)—this is an excellent site, and super accessible
-* [Decisions, decisions](https://vimeo.com/43536417)—a one hour talk by Dan North about trade-offs, and distinguishing decisions that matter a lot more than others
 * [8 Tips for Great Code Reviews](https://kellysutton.com/2018/10/08/8-tips-for-great-code-reviews.html)—five minute read with some good top level tips, well communicated. Maybe share this at work if review doesn’t go so well?
 * [Awesome code review](https://github.com/joho/awesome-code-review): An "Awesome" list of code review resources - articles, papers, tools, etc
  
@@ -57,10 +64,13 @@ The slides can be viewed from the link at the top of the repository.
 
 ## Exercises
 
-* TBC
+* Reading [Trivia](https://github.com/jbrains/trivia) code base to understand
+* Identifying and removing code smells in Trivia code
+* Setting up static analysis for codebase
+* Identifying and removing more code smells in Trivia code
+* Providing code review
 
 # Boot Camp Summary
-
 
 ## Planned
 
@@ -78,7 +88,18 @@ The slides can be viewed from the link at the top of the repository.
 
 # Briefing for organisation mentors
 
-* TBC
+* Familiarise yourself with following code smells using [this site](https://sourcemaking.com/refactoring/smells)
+    * Uncommunicative Name
+    * Duplicate Code
+    * Magic Number
+    * Long method
+    * Conditional complexity
+    * Large class
+* Familiarise yourself with the [Trivia](https://github.com/jbrains/trivia) code base
+    * Maybe try refactoring it?
+* Understand what the golden master test does, and how to regenerate the golden masters
+    * May need to do this if bugs are identified and fixed
+* Try setting up [www.codacy.com](https://www.codacy.com) on one of your repos, or a fork of this one
 
 # Working with the slides
 

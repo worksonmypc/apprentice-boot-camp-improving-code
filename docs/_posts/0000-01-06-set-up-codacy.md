@@ -9,7 +9,7 @@
 
 Notes: Super easy, but hosted systems are more complex.  
     Was it useful?  
-    Did you find anything that you’d missed in the code smell exercise, or reviewing manually?
+    Did you find anything that you’d missed in the code smell exercise, or reviewing manually?  
 
 --
 

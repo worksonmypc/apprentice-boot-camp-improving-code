@@ -304,10 +304,10 @@ Notes: Don’t worry… all on the cards
 
 --
 
-## Exercise: address these smells (30 mins)
+## Exercise: address these smells (60 mins)
 
-TODO
-
++ Address them one at a time:  
+  Uncommunicative Name, Duplicate Code, Magic Number
 + After each change, run all of the tests
 + Commit if green
 + Revert if red

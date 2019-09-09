@@ -79,7 +79,7 @@ The emphasis here is not to be so quick to judge - we are often the culprit.
 <img src="{{ site.github.url }}/images/smart_dumb.png"/>
 
 Note:
-We do the wrong thing even with the best of intentions.
+We do the wrong thing even with the best of intentions.  
 
 --
 
@@ -92,7 +92,7 @@ We do the wrong thing even with the best of intentions.
 <div style="font-size: 0.25em">\- The Mythical Man-Month - Fred Brooks</div>
 
 Notes:
-YAGNI - Extreme Programming Installed, Ronald E. Jeffries,
+YAGNI - Extreme Programming Installed, Ronald E. Jeffries,  
 
 --
 
@@ -110,7 +110,7 @@ YAGNI - Extreme Programming Installed, Ronald E. Jeffries,
 <img height="500" src="https://i.imgur.com/ov1XeHo.jpg"/>
 
 Note:
-We need to take ownership of legacy code and help ensure we don't leave behind a _Big Ball of Mud_ for those who follow.
+We need to take ownership of legacy code and help ensure we don't leave behind a _Big Ball of Mud_ for those who follow.  
 
 ---
 
@@ -126,11 +126,14 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 ## Make sure the tests pass
   * Java folk
-    * import the `exercises/java` directory using ‘Import project from external model’
-    * Choose ‘Use default gradle wrapper (recommended)’
+    * Import `exercises/java` directory using ‘Import project from external model’
+    * Open Gradle toolbox & reimport project
+    * In Gradle toolbox click settings, change ‘Build and run using’ & ‘Run tests using’ to ‘IntelliJ IDE’
+    * Run `GameRunnerTest` and check you can see `goldenMaster()`
   * Other languages
     * ask your mentors how to go about it
 
+Notes: Use https://www.jetbrains.com/help/idea/work-with-gradle-projects.html#delegate_build_actions to fix test running
 --
 
 ## Reading code
@@ -146,7 +149,7 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 
 Refactoring codebase called ‘Trivia’
 
-Notes: Used in ‘Legacy Code Retreat’ workshops
+Notes: Used in ‘Legacy Code Retreat’ workshops  
 
 --
 

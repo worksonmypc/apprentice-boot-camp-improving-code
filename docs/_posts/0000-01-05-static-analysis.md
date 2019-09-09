@@ -18,7 +18,7 @@ Means the code is not actually executed
 
 ## Limited
 
-+ Can only detect common mistakes, syntax issues, potential bugs, but not actual errors
++ Can only detect common mistakes, syntax issues, potential bugs, but not actual errors  
 + Can’t detect good code!
 
 --
@@ -28,7 +28,7 @@ Q: Where have you (maybe) already used Static Analysis?
 + A: Compilers
 + A: IDE (suggestions it makes are based on SA)
 
-Note: draw connection between compile time errors vs run time errors
+Note: draw connection between compile time errors vs run time errors  
 
 --
 
@@ -68,7 +68,7 @@ Note: ask about coverage and whether it is measurable using static analysis—re
 You can include static analysis in your CI pipeline
 
 Note: arguably not sensible to fail the build based on SA  
-  Often leads to frustration and tweaked thresholds 
+  Often leads to frustration and tweaked thresholds  
 
 --
 
@@ -96,7 +96,7 @@ Example: [SonarQube](https://www.sonarqube.org)
 <backgroundimageopacity>0.3</backgroundimageopacity>
 Sonarqube can visualise your design to help you understand quality
 
-Notes: Width is complexity, height LOC, colour issues
+Notes: Width is complexity, height LOC, colour issues  
 
 --
 
@@ -104,7 +104,7 @@ Notes: Width is complexity, height LOC, colour issues
 
 Analyse code after every push
 
-Note: Arguably better as out of phase with deployment, but might get ignored
+Note: Arguably better as out of phase with deployment, but might get ignored  
 
 --
 
