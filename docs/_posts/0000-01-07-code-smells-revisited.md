@@ -11,7 +11,7 @@
 + How long should a method be?
 + Most readable if ten lines at the most
 
-Notes: Companies tend to have one or two thousand line methods kicking around
+Notes: Companies tend to have a couple of KLOC methods kicking around
 
 --
 
@@ -199,15 +199,22 @@ vehicle.getVehicleCheckStatus();
 + Similar to long methods
     * They grow over time
 + Indicate an absence of refactoring
++ Not knowing how to decompose responsibility
 
 --
 
 ## How to fix them?
 
 + Split them up
-+ Extract a class
++ Extract class(es)
++ Move method(s)
 + Use inheritance
     * Extract super class or subclass
+
+Note: First step must be to establish what should be the true single responsibility.  
+    With a large class more responsibility will have crept in.  
+    Work that out, then move the rest elsewhere.  
+    Might be too confused to refactor.  
 
 --
 
