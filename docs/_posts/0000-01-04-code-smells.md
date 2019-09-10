@@ -89,7 +89,7 @@ Notes: Going to be using QWAN Refactoring Cards
 
 --
 
-<img src="images/smells-refactoring-cards-sample.png">
+<img src="{{ site.github.url }}/images/smells-refactoring-cards-sample.png">
 
 ## Two types of card
 
