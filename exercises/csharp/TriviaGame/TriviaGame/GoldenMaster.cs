@@ -14,7 +14,7 @@ namespace TriviaGame
             {
                 result = File.ReadAllText($"{AppDomain.CurrentDomain.BaseDirectory}/resources/output{i}.txt");
             }
-            catch (IOException e)
+            catch (IOException)
             {
                 result = GenerateExpectedResult(i);
             }
