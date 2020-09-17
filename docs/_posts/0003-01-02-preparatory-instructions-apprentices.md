@@ -1,7 +1,3 @@
-# Preparatory Instructions for Apprentices
-
---
-
 ## Make sure you have a Miro account
 
 * If you don't then go to [miro.com](http://miro.com) and sign up (it's free)
@@ -42,3 +38,13 @@
 * Run `GameRunnerTest` and check it passes
 
 Notes: Use https://www.jetbrains.com/help/idea/work-with-gradle-projects.html#delegate_build_actions to fix test running
+
+--
+
+## You’re done!
+
+Go and enjoy yourselves, and make sure the rest of content is fresh when we take you through it in the boot camp.
+
+--
+
+<iframe width="840" height="473" src="https://www.youtube.com/embed/T1XgFsitnQw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -128,3 +128,13 @@ We need to take ownership of legacy code and help ensure we don't leave behind a
 Refactoring codebase called ‘Trivia’
 
 Notes: Used in ‘Legacy Code Retreat’ workshops  
+
+---
+
+## Preparatory Instructions for Apprentices
+
+* Don’t read any further than the set up instructions
+* No, really, don’t! 🙏
+* You can use space and shift-space to move forwards and backwards through the slides
+
+Note: This slide has to be at the end of a file and preceded by triple dashes to make the named anchor work ¯\_(ツ)_/¯
