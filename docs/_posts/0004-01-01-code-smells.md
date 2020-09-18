@@ -283,7 +283,7 @@ Notes: First is a famous IBM error code, second is Pi
 + Extract value of the number to a well named constant
 + Careful: not every use of a literal has the same meaning!
 
---
+---
 
 ## Recap
 
@@ -297,10 +297,13 @@ Notes: Don’t worry… all on the cards
 
 ## Coverage
 
-+ Covering this code is not in scope  
-+ We’ve covered the code with single exhaustive test
-+ Test is interesting, but not part of today’s learning
-+ If tests help you, feel free to add them
++ Proper refactoring shouldn’t break code, but…
++ Important to ensure we haven’t broken anything
++ Good news—we’ve covered the code with single exhaustive test
++ Test uses ‘Golden Master’ technique
+    + Checks the output of 10k predictable runs of the game
+    + Similar to [Visual Regression Testing](https://www.softwaretestinghelp.com/visual-validation-testing/) techniques you may use back at the office
++ But… if more tests help you, feel free to add them
 
 ---
 
@@ -309,7 +312,7 @@ Notes: Don’t worry… all on the cards
 + Address them one at a time:  
   Uncommunicative Name, Duplicate Code, Magic Number
 + After each change, run all of the tests
-+ Commit if green
++ Commit if green (so… every five minutes?)
 + Revert if red
 
 Notes: If working in small chunks reverting not a big deal  
