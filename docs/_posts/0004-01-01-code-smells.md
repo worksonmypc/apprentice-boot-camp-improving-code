@@ -302,7 +302,7 @@ Notes: Don’t worry… all on the cards
 + Test is interesting, but not part of today’s learning
 + If tests help you, feel free to add them
 
---
+---
 
 ## Exercise: address these smells (60 mins)
 

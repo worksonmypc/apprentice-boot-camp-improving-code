@@ -4,7 +4,7 @@
 * Conditional complexity
 * Large class
 
---
+---
 
 ## Smell Four: Long Method
 
@@ -75,7 +75,7 @@ Notes: Companies tend to have a couple of KLOC methods kicking around
 + Decompose conditional (i.e. extract methods)
 + Replace method with method object
 
---
+---
 
 ## Smell Five: Conditional complexity
 
@@ -168,7 +168,7 @@ vs
 vehicle.getVehicleCheckStatus();
 ```
 
---
+---
 
 ## Smell Six: Large Class
 
@@ -214,8 +214,7 @@ Note: First step must be to establish what should be the true single responsibil
     Work that out, then move the rest elsewhere.  
     Might be too confused to refactor.  
 
---
-
+---
 
 ## Exercise: address these smells (60 mins)
 
@@ -224,7 +223,6 @@ Note: First step must be to establish what should be the true single responsibil
 + After each change, run all of the tests
 + Commit if green
 + Revert if red
-
 
 Notes:
 Keep changes small  
