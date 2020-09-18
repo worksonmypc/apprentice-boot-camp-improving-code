@@ -36,7 +36,8 @@ Notes: Don’t worry… all on the cards
 Notes: If working in small chunks reverting not a big deal  
     Remember you can have tests running automatically in IntelliJ  
     Run *all* of the tests  
-    We will discuss what you did—you should be able to tell from your `git log`
+    We will discuss what you did—you should be able to tell from your `git log`  
+    There are not many bad names  
 
 --
 
