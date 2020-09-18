@@ -52,13 +52,16 @@ _\- Grandma Beck, discussing child-rearing philosophy*_
 
 + Things can smell ‘off’ without knowing why: ‘the sniff test’
 + Your sense of smell will improve
+    + Important to develop your own intuition
++ Code smells descriptions help in the meantime
+    + They are not commandments!
 
 <div style="font-size:0.25em">
     * Martin Fowler - Refactoring
 </div>
 
 Notes: Everyone has a sense of smell  
-  Can become more refined  
+  Will become more refined  
   Can’t always tell what something is  
   Can usually tell if it smells good or bad  
 
