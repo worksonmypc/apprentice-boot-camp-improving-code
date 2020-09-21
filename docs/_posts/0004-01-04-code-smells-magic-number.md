@@ -38,6 +38,8 @@ Notes: First is a famous IBM error code, second is Pi
     }
 ```
 
+Notes: What magic numbers can you see here?
+
 --
 
 ```java
@@ -48,6 +50,8 @@ public void addManufacturedYear(Vehicle vehicle) {
         .ifPresent(keyFactsMap::addManufacturedYear);
 }
 ```
+
+Notes: Another magic number—what does it mean?
 
 --
 
