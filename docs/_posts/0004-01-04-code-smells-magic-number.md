@@ -41,13 +41,12 @@ Notes: First is a famous IBM error code, second is Pi
 --
 
 ```java
-    public void addManufacturedYear(Vehicle vehicle) {
-            Optional.ofNullable(vehicle)
-                    .map(Vehicle::getManufacturedYear)
-                    .filter(yearValue -> yearValue.toString().length() == 4)
-                    .ifPresent(keyFactsMap::addManufacturedYear);
-    }
-
+public void addManufacturedYear(Vehicle vehicle) {
+    Optional.ofNullable(vehicle)
+        .map(Vehicle::getManufacturedYear)
+        .filter(yearValue -> yearValue.toString().length() == 4)
+        .ifPresent(keyFactsMap::addManufacturedYear);
+}
 ```
 
 --
