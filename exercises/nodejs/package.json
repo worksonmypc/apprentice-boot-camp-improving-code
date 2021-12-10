@@ -27,12 +27,12 @@
     "random-seed": "^0.3.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
-    "@babel/preset-env": "^7.11.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "babel-jest": "^27.4.4",
     "jest": "^27.4.4",
-    "jest-extended": "^0.11.5",
+    "jest-extended": "^1.2.0",
     "node-notifier": "^10.0.0",
-    "standard": "^14.3.4"
+    "standard": "^16.0.4"
   }
 }
