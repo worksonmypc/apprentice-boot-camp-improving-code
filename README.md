@@ -28,7 +28,18 @@ Two–three mentors required in addition to leads. These should be able to cover
 
 ## Prep-work for apprentices
 
-[See here](https://mcr-digital.github.io/apprentice-boot-camp-improving-code/#preparatory-instructions-for-apprentices)
+* Make sure you have a Miro account
+  * If you don't then go to miro.com and sign up (it's free)
+  * We'll be using it for collaborative drawings and post-its
+* Make sure you can sign in to github.com with your own account
+* **Fork** this repo (so you can push your changes later)
+* Clone your fork: `git clone https://github.com/[your-username]/apprentice-boot-camp-fundamentals-2.git`
+  * ⚠️ Don’t use the IDE to clone the project, as it will open the root of the project which is wrong
+* Follow the instructions in the README for your language under the `exercises` directory, **making sure that the tests run and pass**
+  * [Java](exercises/java/README.md)
+  * [JavaScript](exercises/nodejs/README.md)
+  * [C#](exercises/chsarp/README.md)
+* It’s normal to have problems with this, so just let us know! :)
 
 ## Follow-on tasks
 
