@@ -24,17 +24,17 @@
 
 ```java
 protected Redirect validRequest(Context request) {
-    Uri uri = request.getUri();
-    String dealer = uri.getParameter("dealer").trim();
-    String type = uri.getParameter("type").trim();
-    …
-    return new InternalRedirect(redirectUri);
+ Uri uri = request.getUri();
+ String dealer = uri.getParameter("dealer").trim();
+ String type = uri.getParameter("type").trim();
+ …
+ return new InternalRedirect(redirectUri);
 }
 protected Redirect invalidRequest(Context request) {
-    String dealer = request.getUri().getParameter("dealer").trim();
-    String type = request.getUri().getParameter("type").trim();
-    …
-    return new InternalRedirect(redirectUri);
+ String dealer = request.getUri().getParameter("dealer").trim();
+ String type = request.getUri().getParameter("type").trim();
+ …
+ return new InternalRedirect(redirectUri);
 }
 ```
 
