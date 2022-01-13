@@ -1,7 +1,14 @@
 Test with node.js
 =================
 
-1. Install the dependencies with this command: `npm install`
-2. Run the tests with this command: `npm test`
+To install dependencies
+`npm install`
 
-    Any test source matching the pattern `*.spec.js` or `*.test.js` will be executed.
+To run tests
+`npm test`
+
+If you would like the tests to run in watch mode, run `npm run test:watch`.
+
+By default this runs the tests for any files that have changed, however you can choose to only run a particular file by pressing `p` and then entering a pattern to match a file. For example, to only run the tests for the checkout task, you could press `p` then enter `checkout`.
+
+To cancel watch mode, press `q` to quit.

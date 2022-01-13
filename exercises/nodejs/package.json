@@ -5,7 +5,8 @@
   "main": "game.js",
   "scripts": {
     "lint": "standard --fix",
-    "test": "jest"
+    "test": "jest test --notify",
+    "test:watch": "jest --watch"
   },
   "standard": {
     "env": [
