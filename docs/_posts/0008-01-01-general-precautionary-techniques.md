@@ -81,8 +81,8 @@ Notes: Climbers use pitons to make sure they don’t fall too far
 
 --
 
-<backgroundimage>https://live.staticflickr.com/3342/3308347220_ec8136980c.jpg</backgroundimage>
-<backgroundimageopacity>0.1</backgroundimageopacity>
+<backgroundimage>https://live.staticflickr.com/6215/6347516313_0f37fa1157_b.jpg</backgroundimage>
+<backgroundimageopacity>0.3</backgroundimageopacity>
 
 ## Be conscious about what you couple to
 
@@ -94,7 +94,7 @@ Notes: Climbers use pitons to make sure they don’t fall too far
     + Codebase boundaries
 + Introduce extension points first to facilitate change
 
-<p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/48034913@N00/3308347220">"Map of Middle Earth"</a><span>by <a href="https://www.flickr.com/photos/48034913@N00">Josh Calvetti</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p>
+<p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/34791259@N00/6347516313">"Hobbit map"</a><span>by <a href="https://www.flickr.com/photos/34791259@N00/">Brandon</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p>
 
 --
 
