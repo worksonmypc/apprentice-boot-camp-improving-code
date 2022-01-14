@@ -6,10 +6,15 @@
 
 ## Competencies, Behaviours and Knowledge units
 
-* TC10: Applying Good Practice
-* TC1: Logic
-* TC6: Design
-* Knowledge 1.1 (‘Designing for software maintainability and re-use’ aspect)
+* **[S1](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S1)**: create logical and maintainable code
+* **[S8](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S8)**: create simple software designs to effectively communicate understanding of the program
+* **[S11](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S11)**: apply an appropriate software development approach according to the relevant paradigm (for example object oriented, event driven or procedural)
+* **[S12](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S12)**: follow software designs and functional or technical specifications
+* **[S14](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S14)**: follow company, team or client approaches to continuous integration, version and source control
+* **[S15](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#S15)**: communicate software solutions and ideas to technical and non-technical stakeholders
+* **[B7](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#B7)**: Communicates effectively in a variety of situations to both a technical and non-technical audience
+* **[B4](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1#B4)**: Works collaboratively with a wide range of people in different roles, internally and externally, with a positive attitude to inclusion & diversity
+
 
 ## Resources 
 
@@ -84,22 +89,6 @@ The slides can be viewed from the link at the top of the repository.
 * Setting up static analysis for codebase
 * Identifying and removing more code smells in Trivia code
 * Providing code review
-
-# Boot Camp Summary
-
-## Planned
-
-* Refactoring
-* Static Analysis
-* More on Coupling
-* Code Smells
-* Legacy Code
-* Design Patterns
-
-## Not covered
-
-* Design Patterns
-* More on Coupling
 
 # Briefing for organisation mentors
 
