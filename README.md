@@ -38,7 +38,7 @@ Two–three mentors required in addition to leads. These should be able to cover
   * We'll be using it for collaborative drawings and post-its
 * Make sure you can sign in to github.com with your own account
 * **Fork** this repo (so you can push your changes later)
-* Clone your fork: `git clone https://github.com/[your-username]/apprentice-boot-camp-fundamentals-2.git`
+* Clone your fork: `git clone https://github.com/[your-username]/apprentice-boot-camp-improving-code.git`
   * ⚠️ Don’t use the IDE to clone the project, as it will open the root of the project which is wrong
 * Follow the instructions in the README for your language under the `exercises` directory, **making sure that the tests run and pass**
   * [Java](exercises/java/README.md)
