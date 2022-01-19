@@ -64,9 +64,9 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 <!--- For end of boot camp: Signposting for apprentices self study, further learning, online resources, practice etc. --->
 
 Books:
-* [Working Effectively with Legacy Code, First Edition by Michael Feathers](https://smile.amazon.co.uk/dp/0131177052/ref=cm_sw_r_tw_dp_U_x_bvODDbNBQH6Q6)
-* [Refactoring: Improving the Design of Existing Code by Martin Fowler](https://smile.amazon.co.uk/dp/0134757599/ref=cm_sw_r_tw_dp_U_x_9tODDbHBS3FFA)
-* [Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition by Frederick P. Brooks Jr.](https://smile.amazon.co.uk/dp/0201835959/ref=cm_sw_r_tw_dp_U_x_4vODDbSAZJJ70)
+* [Working Effectively with Legacy Code, First Edition by Michael Feathers](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
+* [Refactoring: Improving the Design of Existing Code by Martin Fowler](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
+* [Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition, 2nd Edition by Frederick P. Brooks Jr.](https://www.oreilly.com/library/view/mythical-man-month-the/0201835959/)
 
 Video:
 * [The Art of Giving and Receiving Code Reviews (Gracefully)](https://www.youtube.com/watch?v=hfrNmZIPq3E) (30 minutes)
