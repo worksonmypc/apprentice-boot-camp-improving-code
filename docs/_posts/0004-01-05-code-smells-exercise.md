@@ -38,7 +38,6 @@ Notes: If working in small chunks reverting not a big deal
     C# people have [`dotnet watch test`](https://docs.microsoft.com/en-us/aspnet/core/tutorials/dotnet-watch?view=aspnetcore-3.1)  
     Run *all* of the tests  
     We will discuss what you did—you should be able to tell from your `git log`  
-    There are not many bad names  
 
 --
 
