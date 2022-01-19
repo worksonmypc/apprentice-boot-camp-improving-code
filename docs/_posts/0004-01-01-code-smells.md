@@ -40,25 +40,22 @@ Note: Kent also created extreme programming, helped form the Agile Manifesto, is
 
 --
 
-<img src="{{ site.github.url }}/images/Refactoring-Improving-the-Design-of-Existing-Code.jpg">
+[<img src="{{ site.github.url }}/images/Refactoring-Improving-the-Design-of-Existing-Code.jpg">](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
 
 Further developed and popularised by Martin Fowler 
 
 --
 
 > If it stinks, change it.
+> — Grandma Beck, discussing child-rearing philosophy
 
-_\- Grandma Beck, discussing child-rearing philosophy*_
+— Martin Fowler, [Refactoring: Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
 
-+ Things can smell ‘off’ without knowing why: ‘the sniff test’
++ Things can smell ‘off’ without knowing why: ‘the sniff test’
 + Your sense of smell will improve
     + Important to develop your own intuition
 + Code smells descriptions help in the meantime
     + They are not commandments!
-
-<div style="font-size:0.25em">
-    * Martin Fowler - Refactoring
-</div>
 
 Notes: Everyone has a sense of smell  
   Will become more refined  
