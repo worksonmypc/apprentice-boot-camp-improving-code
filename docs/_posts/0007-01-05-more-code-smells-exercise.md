@@ -1,4 +1,4 @@
-## Exercise: Fix these smells (60 mins)
+## Exercise: Fix these smells (90 mins)
 
 * Fix one smell at a time and run test after each change
 * Commit if green with useful message (don’t push!)
