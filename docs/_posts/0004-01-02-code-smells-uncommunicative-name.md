@@ -44,6 +44,9 @@ boolean containsLabel(String name, List labels) {
 }
 ```
 
+Note: Ask them to call out bad names.  
+      Make the point that the code is out of context, so hard to know if `name` and `labels` are bad.  
+
 --
 
 ## How to fix bad names?
