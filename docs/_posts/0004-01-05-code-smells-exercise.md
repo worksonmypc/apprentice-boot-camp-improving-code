@@ -45,10 +45,9 @@ Notes: If working in small chunks reverting not a big deal
 ## Exercise Discussion
 
 + How many commits?
-+ How easy was it?
-+ Any surprises?
-+ What uncommunicative names did you find?
-+ What duplication did you find?
-+ What magic numbers did you find?
++ How did you improve the code?
++ Did the tests fail?
 
-Notes: Might want to live code the changes people made as they call them out
+Notes: Might want to look at the code people refer to  
+    Have conversation about whether it is correct to change the tests, given we have no requirements  
+    Smells covered: uncommunicative names, duplication, magic numbers
