@@ -1,6 +1,6 @@
 ## Exercise: Read and try to understand the code (15 mins?)
 
-+ If you haven’t already, [get the code set up](https://mcr-digital.github.io/apprentice-boot-camp-improving-code/#preparatory-instructions-for-apprentices)
++ If you haven’t already, [get the code set up](https://github.com/MCR-Digital/apprentice-boot-camp-improving-code#prep-work-for-apprentices)
 + Look at Game Runner and Game
 + Do not change the code
 + Do try to understand
