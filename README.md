@@ -32,9 +32,6 @@ Two–three mentors required in addition to leads. These should be able to cover
 
 ## Prep-work for apprentices
 
-* Make sure you have a Miro account
-  * If you don't then go to miro.com and sign up (it's free)
-  * We'll be using it for collaborative drawings and post-its
 * Make sure you can sign in to github.com with your own account
 * **Fork** this repo (so you can push your changes later)
 * Clone your fork: `git clone https://github.com/[your-username]/apprentice-boot-camp-improving-code.git`
