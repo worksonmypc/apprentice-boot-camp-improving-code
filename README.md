@@ -25,6 +25,7 @@
 * Pens
 * Whiteboard
 * Paper
+* QWAN cards (Mark and Alec have sets of these)
 
 ## Mentors / Languages
  
