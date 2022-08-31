@@ -80,11 +80,11 @@ The slides can be viewed from the link at the top of the repository.
 
 ## Exercises
 
-* Reading [Trivia](https://github.com/jbrains/trivia) code base to understand
-* Identifying and removing code smells in Trivia code
-* Setting up static analysis for codebase
+* Reading [Trivia](https://github.com/jbrains/trivia) code base to understand what it does and how it works
+* Identifying and removing code smells in Trivia code using refactoring techniques
+* Setting up static analysis for codebase to identify and measure violations of automated rulesets
 * Identifying and removing more code smells in Trivia code
-* Providing code review
+* Providing code review on each others refactoring work in the Trivia codebase, with emphasis on how to use GitHub to communicate issues and praise effectively
 
 # Briefing for organisation mentors
 
