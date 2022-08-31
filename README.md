@@ -25,7 +25,6 @@
 * Pens
 * Whiteboard
 * Paper
-* Sticky tape
 
 ## Mentors / Languages
  
