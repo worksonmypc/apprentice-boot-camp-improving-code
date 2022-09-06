@@ -1,7 +1,7 @@
 ## Smell Three: Magic Number
 
 + Literal values in the code
-+ Can’t understand meaning of the number from it’s value
++ Can’t understand meaning of the number from its value
 + e.g. OxDEADBEEF, 3.14159
 
 Notes: First is a famous IBM error code, second is Pi  
