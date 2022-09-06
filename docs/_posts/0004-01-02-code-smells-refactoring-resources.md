@@ -1,7 +1,7 @@
 ## Some resources to help
 
 + Refactoring Guru website has some excellent free learning material about refactoring
-  + Includes a detailed [section about code smells](https://refactoring.guru/smells/)
+  + Includes a detailed [section about code smells](https://refactoring.guru/refactoring/smells)
 
 --
 
