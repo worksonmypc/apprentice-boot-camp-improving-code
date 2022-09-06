@@ -24,7 +24,7 @@ if (!model.matches(".*\\d+.*")) {
 + Frequently seen in the wild
 
 Notes:
-Highlight the opposing points of view form OO purists to common attitudes.  
+Highlight the opposing points of view from OO purists to common attitudes.  
 
 --
 
