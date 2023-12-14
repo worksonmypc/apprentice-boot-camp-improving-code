@@ -38,5 +38,22 @@ namespace TriviaGame
                 _writer.GetStringBuilder().Clear();
             }
         }
+
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        [TestCase(4)]
+        [TestCase(5)]
+        [TestCase(6)]
+        [TestCase(7)]
+        [TestCase(8)]
+        [TestCase(9)]
+        [TestCase(10)]
+        public void IsEven(int number)
+        {
+            var isEven = number % 2 == 0;
+
+            Assert.IsTrue(isEven);
+        }
     }
 }
